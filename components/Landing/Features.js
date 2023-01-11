@@ -2,14 +2,14 @@ import React from "react";
 
 const Features = () => {
 	return (
-		<div className=" text-center p-16">
-			<h2 className="text-2xl font-bold my-2">How Car Rental Works</h2>
+		<div className=" text-center px-16 py-28 bg-red-50">
+			<h2 className="text-3xl font-bold mb-4">How Car Rental Works</h2>
 			<p>
 				The proper business solution for your developing business strategies and
 				corporation
 			</p>
-			<div className="grid grid-cols-3 gap-8 mt-8">
-				<div className="grid justify-items-center">
+			<div className="grid grid-cols-3 gap-8 mt-14">
+				<div className="grid gap-y-4 justify-items-center">
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
 						fill="none"
@@ -28,7 +28,7 @@ const Features = () => {
 					<h6>Variety of car Brands</h6>
 					<p></p>
 				</div>
-				<div className="grid justify-items-center">
+				<div className="grid gap-y-4 justify-items-center">
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
 						fill="none"
@@ -47,7 +47,7 @@ const Features = () => {
 					<h6>Best Rate Guarantee</h6>
 					<p></p>
 				</div>
-				<div className="grid justify-items-center">
+				<div className="grid gap-y-4 justify-items-center">
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
 						fill="none"
